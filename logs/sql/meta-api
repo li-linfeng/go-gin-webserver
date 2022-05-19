@@ -1,0 +1,6 @@
+time="2022-05-19T14:33:40+08:00" level=warning msg="SELECT DATABASE() [518µs]"
+time="2022-05-19T14:33:40+08:00" level=warning msg="SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'meta-api%' ORDER BY SCHEMA_NAME='meta-api' DESC limit 1 [1.6267ms]"
+time="2022-05-19T14:33:40+08:00" level=warning msg="SELECT count(*) FROM information_schema.tables WHERE table_schema = 'meta-api' AND table_name = 'questions' AND table_type = 'BASE TABLE' [507.7µs]"
+time="2022-05-19T14:33:40+08:00" level=warning msg="SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'meta-api%' ORDER BY SCHEMA_NAME='meta-api' DESC limit 1 [1.2924ms]"
+time="2022-05-19T14:33:40+08:00" level=warning msg="SELECT * FROM `questions` LIMIT 1 [46.3931ms]"
+time="2022-05-19T14:33:40+08:00" level=warning msg="SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale , datetime_precision FROM information_schema.columns WHERE table_schema = 'meta-api' AND table_name = 'questions' ORDER BY ORDINAL_POSITION [999.9µs]"
